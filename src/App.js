@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand } from 'reactstrap';
+import FormComponent from '../src/components/FormComponent';
 import './App.css';
 
 class App extends Component {
@@ -8,9 +9,10 @@ class App extends Component {
             <div className="App">
                 <Navbar dark color="primary">
                 <div className="container">
-                    <NavbarBrand href="/">NuCamp</NavbarBrand>
+                    <NavbarBrand href="/">Is My New Medication Working?</NavbarBrand>
                 </div>
                 </Navbar>
+                <FormComponent />
             </div>
         );
     }
